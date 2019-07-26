@@ -10,6 +10,6 @@ package com.yem.enums;
  */
 public enum McCodeTypeEnum {
    
-	MEMBER, USER, ROLE, PERMISSION, SHOP, SERVER;
+	MEMBER, USER, ROLE, PERMISSION, SHOP, SERVER, SUBSCRIBE;
    
 }

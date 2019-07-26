@@ -63,4 +63,69 @@ public class Constants implements Serializable {
 		
 		public static final String USER_MODIFY_ERROR = "修改用户失败";
 	}
+	
+	public class RoleMsg extends Constants {
+
+		/**
+		 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
+		 * @since JDK 1.8
+		 */
+		private static final long serialVersionUID = -7119128842325657795L;
+		
+		public static final String ROLE_ADD_ERROR = "新增角色失败";
+		
+		public static final String ROLE_MODIFY_ERROR = "修改角色失败";
+	}
+	
+	public class PermissionMsg extends Constants {
+
+		/**
+		 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
+		 * @since JDK 1.8
+		 */
+		private static final long serialVersionUID = -7119128842325657795L;
+		
+		public static final String PERMISSION_ADD_ERROR = "新增权限失败";
+		
+		public static final String PERMISSION_MODIFY_ERROR = "修改权限失败";
+	}
+	
+	public class ServerMsg extends Constants {
+
+		/**
+		 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
+		 * @since JDK 1.8
+		 */
+		private static final long serialVersionUID = -7119128842325657795L;
+		
+		public static final String SERVER_ADD_ERROR = "新增服务失败";
+		
+		public static final String SERVER_MODIFY_ERROR = "修改服务失败";
+	}
+	
+	public class ShopMsg extends Constants {
+
+		/**
+		 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
+		 * @since JDK 1.8
+		 */
+		private static final long serialVersionUID = -7119128842325657795L;
+		
+		public static final String SHOP_ADD_ERROR = "新增门店失败";
+		
+		public static final String SHOP_MODIFY_ERROR = "修改门店失败";
+	}
+	
+	public class SubscribeMsg extends Constants {
+
+		/**
+		 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
+		 * @since JDK 1.8
+		 */
+		private static final long serialVersionUID = -7119128842325657795L;
+		
+		public static final String SUBSCRIBE_ADD_ERROR = "新增预约失败";
+		
+		public static final String SUBSCRIBE_MODIFY_ERROR = "修改预约失败";
+	}
 }
