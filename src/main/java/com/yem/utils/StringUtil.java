@@ -1,6 +1,8 @@
 
 package com.yem.utils;
 
+import java.util.UUID;
+
 import org.apache.commons.lang.StringUtils;
 
 /**
@@ -13,4 +15,11 @@ import org.apache.commons.lang.StringUtils;
  */
 public class StringUtil extends StringUtils{
 	
+	public static String getUUID() {
+		return UUID.randomUUID().toString();
+	}
+	
+	public static String getUUIDWithOutRod() {
+		return getUUID().replace("-", "");
+	}
 }
